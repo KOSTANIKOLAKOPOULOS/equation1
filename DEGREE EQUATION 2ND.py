@@ -9,11 +9,11 @@ if var1==0 :
     print(f"the solution is X={X}")
 D=var2**2-4*var1*var3
 if D==0 :
-    X=-var2/2*var1
+    X=-var2/(2*var1)
     print(X)
 if D>0 :
-    x1=(-var2+(D**0.5))/2*var1
-    x2=(-var2-(D**0.5))/2*var1
+    x1=(-var2+(D**0.5))/(2*var1)
+    x2=(-var2-(D**0.5))/(2*var1)
     print(x1)
     print(x2)
 if D<0 :
